@@ -1,0 +1,21 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /builtins/render/default.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+
+[project]
+title = ldj_43
+dependencies = https://github.com/britzl/Platypus/archive/master.zip,https://github.com/britzl/defold-input/archive/master.zip,https://github.com/britzl/defold-orthographic/archive/master.zip
+
+[physics]
+debug = 0
+
+[input]
+game_binding = /input/all.input_bindingc
+

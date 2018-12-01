@@ -1,0 +1,99 @@
+images {
+  image: "/assets/frog.png"
+}
+animations {
+  id: "idle"
+  images {
+    image: "/assets/Character/idle/idle1.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle10.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle11.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle12.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle2.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle3.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle4.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle5.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle6.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle7.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle8.png"
+  }
+  images {
+    image: "/assets/Character/idle/idle9.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "run"
+  images {
+    image: "/assets/Character/run/run1.png"
+  }
+  images {
+    image: "/assets/Character/run/run2.png"
+  }
+  images {
+    image: "/assets/Character/run/run3.png"
+  }
+  images {
+    image: "/assets/Character/run/run4.png"
+  }
+  images {
+    image: "/assets/Character/run/run5.png"
+  }
+  images {
+    image: "/assets/Character/run/run6.png"
+  }
+  images {
+    image: "/assets/Character/run/run7.png"
+  }
+  images {
+    image: "/assets/Character/run/run8.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "jump"
+  images {
+    image: "/assets/Character/jump/jump1.png"
+  }
+  images {
+    image: "/assets/Character/jump/jump2.png"
+  }
+  images {
+    image: "/assets/Character/jump/jump3.png"
+  }
+  images {
+    image: "/assets/Character/jump/jump4.png"
+  }
+  playback: PLAYBACK_LOOP_PINGPONG
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
