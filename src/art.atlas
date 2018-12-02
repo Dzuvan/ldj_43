@@ -1,43 +1,16 @@
 images {
-  image: "/assets/frog.png"
+  image: "/assets/bubble.png"
 }
 animations {
   id: "idle"
   images {
-    image: "/assets/Character/idle/idle1.png"
+    image: "/assets/characters/hero/hero_idle1.png"
   }
   images {
-    image: "/assets/Character/idle/idle10.png"
+    image: "/assets/characters/hero/hero_idle2.png"
   }
   images {
-    image: "/assets/Character/idle/idle11.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle12.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle2.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle3.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle4.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle5.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle6.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle7.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle8.png"
-  }
-  images {
-    image: "/assets/Character/idle/idle9.png"
+    image: "/assets/characters/hero/hero_idle3.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 20
@@ -47,28 +20,22 @@ animations {
 animations {
   id: "run"
   images {
-    image: "/assets/Character/run/run1.png"
+    image: "/assets/characters/hero/hero_run1.png"
   }
   images {
-    image: "/assets/Character/run/run2.png"
+    image: "/assets/characters/hero/hero_run2.png"
   }
   images {
-    image: "/assets/Character/run/run3.png"
+    image: "/assets/characters/hero/hero_run3.png"
   }
   images {
-    image: "/assets/Character/run/run4.png"
+    image: "/assets/characters/hero/hero_run4.png"
   }
   images {
-    image: "/assets/Character/run/run5.png"
+    image: "/assets/characters/hero/hero_run5.png"
   }
   images {
-    image: "/assets/Character/run/run6.png"
-  }
-  images {
-    image: "/assets/Character/run/run7.png"
-  }
-  images {
-    image: "/assets/Character/run/run8.png"
+    image: "/assets/characters/hero/hero_run6.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 20
@@ -78,22 +45,104 @@ animations {
 animations {
   id: "jump"
   images {
-    image: "/assets/Character/jump/jump1.png"
+    image: "/assets/characters/hero/hero_jump1.png"
   }
   images {
-    image: "/assets/Character/jump/jump2.png"
+    image: "/assets/characters/hero/hero_jump2.png"
   }
   images {
-    image: "/assets/Character/jump/jump3.png"
+    image: "/assets/characters/hero/hero_jump3.png"
   }
   images {
-    image: "/assets/Character/jump/jump4.png"
+    image: "/assets/characters/hero/hero_jump4.png"
   }
   playback: PLAYBACK_LOOP_PINGPONG
   fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }
+animations {
+  id: "old_man"
+  images {
+    image: "/assets/characters/old_man/old_man1.png"
+  }
+  images {
+    image: "/assets/characters/old_man/old_man2.png"
+  }
+  images {
+    image: "/assets/characters/old_man/old_man3.png"
+  }
+  images {
+    image: "/assets/characters/old_man/old_man4.png"
+  }
+  images {
+    image: "/assets/characters/old_man/old_man5.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "girl"
+  images {
+    image: "/assets/characters/girl/girl1.png"
+  }
+  images {
+    image: "/assets/characters/girl/girl2.png"
+  }
+  images {
+    image: "/assets/characters/girl/girl3.png"
+  }
+  images {
+    image: "/assets/characters/girl/girl4.png"
+  }
+  images {
+    image: "/assets/characters/girl/girl5.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "baby"
+  images {
+    image: "/assets/characters/baby/baby1.png"
+  }
+  images {
+    image: "/assets/characters/baby/baby2.png"
+  }
+  images {
+    image: "/assets/characters/baby/baby3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "old_woman"
+  images {
+    image: "/assets/characters/old_woman/old_woman1.png"
+  }
+  images {
+    image: "/assets/characters/old_woman/old_woman2.png"
+  }
+  images {
+    image: "/assets/characters/old_woman/old_woman3.png"
+  }
+  images {
+    image: "/assets/characters/old_woman/old_woman4.png"
+  }
+  images {
+    image: "/assets/characters/old_woman/old_woman5.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
 margin: 0
-extrude_borders: 0
+extrude_borders: 1
 inner_padding: 0
