@@ -2,7 +2,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/src/art.atlas\"\n"
-  "default_animation: \"old_man\"\n"
+  "default_animation: \"old_woman\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

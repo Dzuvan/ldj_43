@@ -1,0 +1,643 @@
+name: "level_2_hard"
+instances {
+  id: "camera2"
+  prototype: "/orthographic/camera.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "follow"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "follow_target"
+      value: "/player"
+      type: PROPERTY_TYPE_HASH
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "player"
+  prototype: "/src/player/player.go"
+  position {
+    x: 71.0
+    y: 34.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 160.0
+    y: 55.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble1"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 160.0
+    y: 55.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble2"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1332.0
+    y: 420.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble3"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1216.0
+    y: 357.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble4"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1361.0
+    y: 164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble5"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1013.0
+    y: 201.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble6"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 866.0
+    y: 244.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble7"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 870.0
+    y: 55.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble8"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 704.0
+    y: 315.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble9"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 553.0
+    y: 274.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble10"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 493.0
+    y: 185.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble11"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 358.0
+    y: 219.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble12"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 522.0
+    y: 55.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble13"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 264.0
+    y: 133.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble14"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1775.0
+    y: 484.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble15"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1845.0
+    y: 113.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble16"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1474.0
+    y: 258.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble17"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1587.0
+    y: 319.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble18"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 1117.0
+    y: 267.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble19"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 2395.0
+    y: 710.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bubble20"
+  prototype: "/src/bubble/bubble.go"
+  position {
+    x: 2277.0
+    y: 653.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "old_woman"
+  prototype: "/src/old_woman/old_woman.go"
+  position {
+    x: 2485.0
+    y: 31.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "baby"
+  prototype: "/src/baby/baby.go"
+  position {
+    x: 2535.0
+    y: 756.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+scale_along_z: 0
+embedded_instances {
+  id: "tilemap"
+  data: "components {\n"
+  "  id: \"level_2_hard\"\n"
+  "  component: \"/src/level_2_hard/level_2_hard.tilemap\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"/src/level_2_hard/level_2_hard.tilemap\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_STATIC\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"ground\\\"\\n"
+  "mask: \\\"player\\\"\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "barrier"
+  data: "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_STATIC\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"ground\\\"\\n"
+  "mask: \\\"player\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_BOX\\n"
+  "    position {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 3\\n"
+  "  }\\n"
+  "  data: 10.0\\n"
+  "  data: 950.0\\n"
+  "  data: 10.0\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -10.0
+    y: 587.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

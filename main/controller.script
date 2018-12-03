@@ -1,0 +1,49 @@
+local shared = require 'main.shared'
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	msg.post("#menuproxy", "load")
+end
+
+function final(self)
+	msg.post(".", "release_input_focus")
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("show_game") then
+		msg.post("#introproxy", "unload")
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "load")
+	elseif message_id == hash("show_intro") then
+		msg.post("#menuproxy", "unload")
+		msg.post("#introproxy", "load")
+	elseif message_id == hash("ending_e") then
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "unload")
+		msg.post("#eeproxy", "load")
+	elseif message_id == hash("ending_h") then
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "unload")
+		msg.post("#ehproxy", "load")
+	elseif message_id == hash("show_menu") then
+		msg.post("#introproxy", "unload")
+		msg.post("#menuproxy", "load")
+	elseif message_id == hash("show_menu_ee") then
+		msg.post("#eeproxy", "unload")
+		msg.post("#menuproxy", "load")
+	elseif message_id == hash("show_menu_eh") then
+		msg.post("#ehproxy", "unload")
+		msg.post("#menuproxy", "load")
+	elseif message_id == hash("show_game_over") then
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "unload")
+		msg.post("#gameoverproxy", "load")
+	elseif message_id == hash("play_again") then
+		msg.post("#gameoverproxy", "unload")
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "load")
+	elseif message_id == hash("next_level") then
+		msg.post("#level_"..shared.level.previous.."_"..shared.level.cur, "unload")
+		msg.post("#level_"..shared.level.next.."_"..shared.level.dif, "load")
+	elseif message_id == hash("proxy_loaded") then
+		print("proxy_loaded", sender)
+		msg.post(sender, "enable")
+	elseif message_id == hash("proxy_unloaded") then
+		print("proxy_unloaded", sender)
+	end
+end

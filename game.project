@@ -1,5 +1,5 @@
 [bootstrap]
-main_collection = /main/main.collectionc
+main_collection = /main/controller.collectionc
 render = /builtins/render/default.renderc
 
 [script]
@@ -8,6 +8,8 @@ shared_state = 1
 [display]
 width = 960
 height = 640
+fullscreen = 0
+high_dpi = 0
 
 [project]
 title = ldj_43

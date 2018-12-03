@@ -13,7 +13,7 @@ animations {
     image: "/assets/characters/hero/hero_idle3.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -38,7 +38,7 @@ animations {
     image: "/assets/characters/hero/hero_run6.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -57,7 +57,7 @@ animations {
     image: "/assets/characters/hero/hero_jump4.png"
   }
   playback: PLAYBACK_LOOP_PINGPONG
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -79,7 +79,7 @@ animations {
     image: "/assets/characters/old_man/old_man5.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -101,7 +101,7 @@ animations {
     image: "/assets/characters/girl/girl5.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -117,7 +117,7 @@ animations {
     image: "/assets/characters/baby/baby3.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
@@ -139,7 +139,7 @@ animations {
     image: "/assets/characters/old_woman/old_woman5.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 20
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }

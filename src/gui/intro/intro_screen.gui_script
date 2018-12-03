@@ -1,0 +1,24 @@
+local button = require "in.button"
+
+local text = [===[
+The year is 2xxx. Planet Earth was ravaged by unknown disaster. Most of the population is wiped out and ecosystem is changed forever.
+Among the survivors is the unintended hero of this story. As he was trying best he can to survive by some cruel act of faith he has found himself in a situation where he can save some of the other survivors but at what a price? He will soon learn the meaning of the word sacrifice as he has to choose who to save and who to leave to certain death and that by going the easier route he may find himself in an even worse predicament... 
+]===]
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	local box = gui.get_node("text")
+	gui.set_text(box, text)
+	button.register(gui.get_node("start_game_button"), function()
+		msg.post("controller:/controller#controller", "show_game")
+	end)
+end
+
+function final(self)
+	button.unregister("start_game_button")
+	msg.post(".", "release_input_focus")
+end
+
+function on_input(self, action_id, action)
+	button.on_input(action_id, action)
+end
